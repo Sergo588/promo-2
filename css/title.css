@@ -1,0 +1,63 @@
+.forsage_company_container{
+  width:100%;
+  height: 300px;
+  background-color: #333;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+
+}
+
+.logo_btn_partner{
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.logo_btn_partner i{
+  width: 170px;
+  height: 52px;
+  font-size: 45px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.social_img{
+  width: 170px;
+  height: 50px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.go_on_btn{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 30px;
+  border-radius: 50px;
+  color: white;
+  background-color: #6149e1;
+  font-size: 12px;
+  font-family: "NeuronAngled", sans-serif;
+  font-weight: 700;
+  transition: .3s;
+  cursor: pointer;
+
+}
+
+.go_on_btn:hover{
+  background: white;
+  color: #6c688c;
+}
